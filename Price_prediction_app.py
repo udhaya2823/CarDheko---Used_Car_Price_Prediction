@@ -10,8 +10,8 @@ st.set_page_config(layout="wide", page_title="Car Dheko - Price Prediction", pag
 
 # Load paths
 logo_path = "E:/UDHAYA/Cardeko_project/Cardeko_logo.png"
-dataset_path = "E:/UDHAYA/Cardeko_project/Processed_dataset.csv"
-model_path = "E:/UDHAYA/Cardeko_project/pipeline_model.pkl"
+dataset_path = "E:/UDHAYA/Cardeko_project/Cleaned_csv/Processed_dataset.csv"
+model_path = "E:/UDHAYA/Cardeko_project/Reports/pipeline_model.pkl"
 
 # Custom CSS for styling
 st.markdown("""
