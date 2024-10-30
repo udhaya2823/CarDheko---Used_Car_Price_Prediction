@@ -110,7 +110,7 @@ if df is not None and pipeline_model is not None:
 
     # Numeric inputs
     model_year = st.sidebar.number_input("Manufacturing Year", min_value=1980, max_value=2025, step=1)
-    mileage = st.sidebar.number_input("Mileage (in km/l)", min_value=1.0, step=0.1)
+    mileage = st.sidebar.number_input("Mileage (in km/l)", min_value=1.0, max_value=50.0,step=0.1)
     owner_no = st.sidebar.number_input("Owner Number", min_value=1, max_value=5, step=1)
     kms_driven = st.sidebar.number_input("Kilometers Driven", min_value=100, max_value=1000000, step=1000)
 
